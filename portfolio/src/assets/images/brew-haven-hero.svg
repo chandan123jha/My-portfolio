@@ -1,0 +1,36 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B2A20" />
+      <stop offset="100%" stop-color="#F3C677" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8E6D0" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#F2C89D" stop-opacity="0.75" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="40" fill="url(#bg)" />
+  <rect x="80" y="100" width="440" height="460" rx="32" fill="#fff" opacity="0.08" />
+  <rect x="100" y="120" width="400" height="420" rx="30" fill="#FFFFFF" opacity="0.12" />
+  <rect x="100" y="120" width="400" height="160" rx="30" fill="#F8E9D5" />
+  <path d="M160 220C160 190 380 190 380 220V230C380 260 160 260 160 230V220Z" fill="#E6B784" />
+  <path d="M160 230C160 260 380 260 380 230V360C380 390 160 390 160 360V230Z" fill="#D8A56A" />
+  <path d="M210 245C210 235 330 235 330 245C330 255 210 255 210 245Z" fill="#F3E0CA" />
+  <path d="M218 300L242 278L266 300L290 278L314 300" stroke="#8B5E34" stroke-width="12" stroke-linecap="round" />
+  <rect x="460" y="110" width="620" height="420" rx="42" fill="rgba(255,255,255,0.14)" />
+  <rect x="500" y="150" width="540" height="50" rx="18" fill="#fff" opacity="0.95" />
+  <rect x="500" y="220" width="300" height="28" rx="14" fill="#fff" opacity="0.86" />
+  <rect x="500" y="268" width="260" height="20" rx="10" fill="#fff" opacity="0.76" />
+  <rect x="500" y="310" width="250" height="20" rx="10" fill="#fff" opacity="0.76" />
+  <rect x="500" y="360" width="200" height="20" rx="10" fill="#fff" opacity="0.76" />
+  <rect x="500" y="420" width="140" height="42" rx="21" fill="#C07E4A" />
+  <rect x="690" y="420" width="140" height="42" rx="21" fill="#FFE8C0" opacity="0.9" />
+  <circle cx="720" cy="260" r="58" fill="#fff" opacity="0.22" />
+  <circle cx="820" cy="300" r="34" fill="#fff" opacity="0.18" />
+  <path d="M540 560C540 520 700 520 700 560C700 600 540 600 540 560Z" fill="url(#glass)" opacity="0.95" />
+  <path d="M560 545C560 537 683 537 683 545C683 553 560 553 560 545Z" fill="#fff" opacity="0.55" />
+  <text x="120" y="540" fill="#fff" font-family="Inter, sans-serif" font-size="48" font-weight="700">Brew Haven</text>
+  <text x="120" y="600" fill="#fff" font-family="Inter, sans-serif" font-size="28" opacity="0.85">Premium coffee shop website</text>
+  <rect x="70" y="600" width="1060" height="55" rx="28" fill="rgba(255,255,255,0.12)" />
+  <path d="M84 628C84 614 96 602 110 602H173C187 602 199 614 199 628C199 642 187 654 173 654H110C96 654 84 642 84 628Z" fill="#fff" opacity="0.18" />
+</svg>
