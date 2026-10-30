@@ -1,0 +1,38 @@
+.section { background: var(--paper); }
+.content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
+  gap: clamp(40px, 8vw, 110px);
+  padding-top: 20px;
+}
+.lead {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--display-font);
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  letter-spacing: -.055em;
+  line-height: 1.02;
+}
+.copy { display: grid; gap: 18px; }
+.copy p { margin: 0; color: var(--muted); font-size: .91rem; line-height: 1.85; }
+.capabilities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-top: 78px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.capability {
+  position: relative;
+  min-height: 230px;
+  padding: 25px;
+  background: var(--paper);
+  transition: background-color 300ms ease, transform 300ms ease;
+}
+.capability:hover { background: var(--paper-2); transform: translateY(-5px); z-index: 1; }
+.number { display: block; color: var(--accent); font-family: var(--mono-font); font-size: .62rem; }
+.capability svg { width: 23px; height: 23px; margin-top: 48px; color: var(--ink); }
+.capability h3 { margin: 17px 0 0; font-family: var(--display-font); font-size: 1.55rem; font-weight: 500; letter-spacing: -.04em; }
+.capability p { max-width: 250px; margin: 9px 0 0; color: var(--muted); font-size: .77rem; line-height: 1.65; }
+@media (max-width: 800px) { .content { grid-template-columns: 1fr; } .capabilities { grid-template-columns: 1fr; } .capability { min-height: 190px; } }

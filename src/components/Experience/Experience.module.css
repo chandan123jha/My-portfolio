@@ -1,0 +1,14 @@
+.section { background: var(--paper-2); }
+.inner { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(45px, 9vw, 120px); align-items: start; }
+.role { padding: 28px 0 0 34px; border-left: 1px solid var(--line-strong); }
+.roleHeader { display: flex; align-items: center; gap: 10px; color: var(--accent-dark); font-family: var(--mono-font); font-size: .61rem; letter-spacing: .12em; text-transform: uppercase; }
+.marker { width: 8px; height: 8px; margin-left: -39px; border: 2px solid var(--paper-2); border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.roleHeader p { margin: 0; }
+.role h3 { margin: 30px 0 0; font-family: var(--display-font); font-size: clamp(2.3rem, 4.2vw, 4.5rem); font-weight: 500; letter-spacing: -.065em; line-height: .95; }
+.summary { max-width: 640px; margin: 23px 0 0; color: var(--muted); font-size: .93rem; line-height: 1.8; }
+.role ul { display: grid; gap: 11px; margin: 30px 0 0; padding: 0; list-style: none; }
+.role li { display: flex; align-items: flex-start; gap: 10px; color: var(--ink); font-size: .79rem; line-height: 1.55; }
+.role li svg { flex: 0 0 auto; margin-top: 2px; color: var(--accent-dark); }
+.role > a { display: inline-flex; align-items: center; gap: 7px; margin-top: 30px; color: var(--ink); font-size: .77rem; font-weight: 800; }
+.role > a:hover { color: var(--accent-dark); }
+@media (max-width: 780px) { .inner { grid-template-columns: 1fr; } .role { padding-top: 0; } }
